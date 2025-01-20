@@ -66,14 +66,53 @@
   font-weight: 600;
   line-height: 30px;
   border: 0;
-  border-radius: 12px;
+  border-radius: 8px;
   background: rgb(254, 163, 1);
   padding: 8px 16px;
 }
 
 /* banner section */
 
-
+#banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#banner h1 {
+  font-family: Quicksand;
+  font-size: 38px;
+  font-weight: 700;
+  text-align: left;
+}
+#banner p {
+  color: rgb(17, 17, 17);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 20px;
+}
+.btn {
+  margin: 20px 0;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: rgb(17, 17, 17);
+}
+.empowering{
+    color: rgb(254, 163, 1);
+}
+.vision{
+    color: rgb(1, 172, 253);
+}
+.banner-img{
+    height: 350px;
+    width: 350px;
+}
 @media screen and (max-width: 576px) {
   #nav {
     border-bottom: 2px solid rgb(254, 163, 1);
@@ -87,4 +126,9 @@
   /* #btn {
     display: none;
   } */
+   /* banner */
+   #banner{
+    flex-direction: column-reverse;
+    align-items: center;
+   }
 }
