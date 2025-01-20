@@ -232,11 +232,109 @@
 /* our stories */
 #stories {
   width: 100%;
-  height: 679px;
+  height: 779px;
   background: url("../assets/bg.png"),
     linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
 }
+.stories-title{
+  color: rgb(0, 0, 0);
+font-size: 46px;
+font-weight: 700;
+line-height: 57.5px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 54px;
+}
+.stories-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.stories1{
+  width: 540.27px;
+height: 580.52px;
+border-radius: 16px;
+background: rgb(255, 255, 255);
+}
+.stories1-title{
+  color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 700;
+margin-top: 20px;
+margin-left: 30px;
 
+}
+.stories1-subtitle{
+  color: rgb(102, 102, 102);
+  font-size: 15.34px;
+  font-weight: 500;
+  line-height: 28.76px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.november{
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+border: 0;
+border-radius: 47.93px;
+
+background: rgb(60, 216, 232);
+padding: 6px 12px;
+position: absolute;
+margin-top: 320px;
+margin-left: -500px;
+
+}
+.stories2{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+.storiesbox{
+  width: 290.69px;
+height: 280.61px;
+border-radius: 16px;
+margin-bottom: 20px;
+background: rgb(255, 255, 255);
+}
+.storiesbox-title{
+  color: rgb(0, 0, 0);
+font-family: Quicksand;
+font-size: 15.34px;
+font-weight: 700;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 20px;
+margin-left: 20px;
+}
+.november1{
+  color: rgb(255, 255, 255);
+font-family: Raleway;
+font-size: 15.34px;
+font-weight: 500;
+line-height: 28.76px;
+letter-spacing: 0%;
+text-align: left;
+text-transform: capitalize;
+border: 0;
+border-radius: 47.93px;
+background: rgb(60, 216, 232);
+padding: 6px 12px;
+position: absolute;
+margin-top: -30px;
+margin-left: 20px;
+}
+.image11{
+  border-radius: 10px;
+}
 /* footer */
 .footer {
   width: 100%;
@@ -291,15 +389,18 @@
     align-items: start;
     padding-left: 30px;
   }
-  .stories-box1 {
+  .stories1{
     display: none;
   }
-  .image {
-    height: 200px;
-    width: 200px;
-  }
-  .stories-img {
-    height: 300px;
-    width: 300px;
-  }
+.image11{
+  height: 150px;
+  width: 180px;
+}
+.stories2{
+height: 350px;
+width: 150px;
+}
+.november1{
+display: none;
+}
 }
