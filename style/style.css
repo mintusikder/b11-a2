@@ -1,0 +1,90 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", serif;
+}
+/* nav section */
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 86px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-img {
+  height: 50px;
+}
+#link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+#link li {
+  list-style: none;
+}
+#link .home {
+  text-decoration: none;
+  color: rgb(254, 163, 1);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#link .about {
+  text-decoration: none;
+  color: rgb(1, 172, 253);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#link .facilities {
+  text-decoration: none;
+  color: rgb(5, 212, 223);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#link .admission {
+  text-decoration: none;
+  color: rgb(93, 88, 239);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+}
+#btn {
+  color: rgb(255, 255, 255);
+  font-family: Quicksand;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  border: 0;
+  border-radius: 12px;
+  background: rgb(254, 163, 1);
+  padding: 8px 16px;
+}
+
+/* banner section */
+
+
+@media screen and (max-width: 576px) {
+  #nav {
+    border-bottom: 2px solid rgb(254, 163, 1);
+  }
+  #link {
+    display: none;
+  }
+  .nav-title {
+    display: none;
+  }
+  /* #btn {
+    display: none;
+  } */
+}
