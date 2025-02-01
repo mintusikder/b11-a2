@@ -381,10 +381,10 @@
 }
 
 @media screen and (min-width: 576px) {
-  .fa-bars {
+  .n{
     display: none;
   }
-  .n{
+  .hidden{
     display: none;
   }
 }
